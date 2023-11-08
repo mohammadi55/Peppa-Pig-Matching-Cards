@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 161, 213);
+    background-color: rgb(177, 100, 49);
     font-family: "Comic Sans MS", cursive;
     color: white;
     text-align: center;
@@ -32,3 +32,16 @@ button img {
     height: 100px;
     width: 100px;
 }
+
+@media (max-width:600px) {
+    body{
+        background-color: #61565d;
+    }
+}
+
+@media (min-width: 1025px) {
+    body{
+        background-color: rgba(255,161,213);
+    }
+}
+
